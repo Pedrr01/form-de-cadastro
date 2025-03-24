@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CuidarMed</title>
+</head>
+<body>
+    <div class="content">
+        <h1>CuidarMed 🩺</h1>
+        <p class="chamada">Venha fazer parte da nossa equipe! Candidate-se agora.</p>
+        <form>
+            <div>
+                <input type="text" name="" id="" placeholder="Digite seu nome" class="inputs">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres.</span>
+            </div>
+            <div>
+                <input type="date" name="" id="" placeholder="Digite sua data de nascimento" class="inputs">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="email" name="" id="" placeholder="Digite seu email" class="inputs">
+                <span class="span-required">Digite um email válido.</span>
+            </div>
+            <div>
+                <input type="password" name="" id="" placeholder="Digite sua senha" class="inputs">
+                <span class="span-required">Digite uma senha com no mínimo 8 caracteres.</span>
+            </div>
+            <div>
+                <input type="password" name="" id="" placeholder="Confirme sua senha" class="inputs">
+                <span class="span-required">Senhas devem ser compatíveis.</span>
+            </div>
+            <textarea class="inputs" id="" cols="25" rows="8" placeholder="Fale um pouco sobre você..."></textarea>
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio" name="sexo" id="m" value="m">
+                    <label for="m">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" name="sexo" id="f" value="f">
+                    <label for="f">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" name="sexo" id="o" value="o">
+                    <label for="o">Outro</label>
+                </div>
+            </div>
+            <p>Vaga:</p>
+            <select name="vaga" class="inputs">
+                <option value="pediatra">Pediatra</option>
+                <option value="psiquiatra">Psiquiatra</option>
+                <option value="cardiologista">Cardiologista</option>
+                <option value="clinico-geral">Clínico Geral</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
