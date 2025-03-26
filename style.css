@@ -31,7 +31,7 @@ body{
     border-radius: 10px;
     min-width: 30%;
     overflow: auto;
-    
+    user-select: none;
 }
 
 h1{
@@ -51,7 +51,10 @@ h1{
 }
 
 .span-required{
+    font-size: 12px;
+    margin:  3px 0 0 1px;
     display: none;
+    color: var(--cor-das-validacoes);
 }
 
 .inputs{
